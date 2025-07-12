@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>דשבורד מכירות - Tableau</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            margin: 0;
+            background: linear-gradient(to bottom right, #f4f8fb, #e0f0f9);
+            color: #333;
+        }
+        header {
+            background-color: #1f3b57;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        .story h2 {
+            color: #1f3b57;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .story p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .tableauPlaceholder {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>דשבורד מכירות</h1>
+    </header>
+
+    <div class="container">
+        <div class="story">
+            <h2>מה מספר הדשבורד?</h2>
+            <p>
+                הדשבורד מציג סיפור נתונים על ביצועי מכירות של חנות אונליין מזוויות שונות. הוא כולל מספר תרשימים:
+                פילוח לפי סוגי לקוחות (חדשים לעומת חוזרים), מגמות מכירה לאורך השבועות, השוואת רווחיות בין אזורים גאוגרפיים וניתוח מכירות לפי קטגוריות מוצרים. 
+                המטרה היא לסייע למקבלי החלטות להבין מי הלקוחות העיקריים, אילו מוצרים מצליחים ואיפה ניתן לשפר. 
+                בעזרת הדשבורד ניתן לראות מגמות זמן, לזהות קטגוריות חזקות או חלשות, ולפעול בהתאם לשיפור המכירות והרווחיות.
+            </p>
+        </div>
+
+        <div class='tableauPlaceholder' id='viz1752320982254' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/sa/sales_17523209373150/Dashboard1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='sales_17523209373150/Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/sa/sales_17523209373150/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1752320982254');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else {
+            vizElement.style.width='100%';vizElement.style.height='1327px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</body>
+</html>
